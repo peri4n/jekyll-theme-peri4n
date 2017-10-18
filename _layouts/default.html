@@ -6,12 +6,12 @@
         <title>{{ page.title }}</title>
     </head>
     <body>
-        <header></header>
-        <nav></nav>
+        <header>
+            {% include header.html %}
+        </header>
         <main>
-        {{ content }}
+            {{ content }}
         </main>
-        <aside></aside>
         <footer></footer>
     </body>
 </html>
