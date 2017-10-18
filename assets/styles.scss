@@ -1,5 +1,17 @@
 ---
 ---
 
-body {
+ul {
+    background-color: green;
+    width: 500px;
+    display: flex;
+
+    li {
+        display: inline-block;
+        list-style: none;
+        border: 2px solid black;
+        flex: 1 1 100px;
+    }
 }
+
+
