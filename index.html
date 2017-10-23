@@ -2,10 +2,21 @@
 title: Main Page
 layout: default
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<section>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <article>
+                <header>
+                    <h1>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </h1>
+                </header>
+                <main>
+                    {{ post.excerpt }}
+                </main>
+            </article>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

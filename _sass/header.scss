@@ -1,0 +1,15 @@
+
+header {
+    background-color: #eee;
+
+    ul {
+        width: 500px;
+        display: flex;
+
+        li {
+            display: inline-block;
+            list-style: none;
+            flex: 1 1 100px;
+        }
+    }
+}
