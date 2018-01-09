@@ -7,14 +7,22 @@
 body {
     width: 80%;
     margin: auto;
-}
 
-main {
-    border: black solid 1px;
-    margin: 0 auto;
+    > main {
+        border: black solid 1px;
+        margin: 0 auto;
 
-    li {
-        list-style: none;
+
+        li {
+            list-style: none;
+            a {
+                color: #000;
+            }
+
+            a:hover {
+                color: #00F;
+            }
+        }
     }
 }
 
