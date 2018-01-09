@@ -17,8 +17,13 @@ body {
 
         li {
             list-style: none;
+            padding-bottom: 15px;
+            line-height: 1.5em;
+
             header {
+                text-align: center;
                 font-family: 'Sacramento', cursive;
+                font-size: 30px;
             }
             a {
                 color: #000;
