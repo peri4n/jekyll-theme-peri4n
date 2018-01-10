@@ -1,6 +1,6 @@
 
 body > header {
-    background-color: #E00;
+    font-family: 'Source Sans Pro', sans-serif;
 
     ul {
         width: 500px;
@@ -10,6 +10,12 @@ body > header {
             display: inline-block;
             list-style: none;
             flex: 1 1 100px;
+            font-size: 30px;
+            a {
+                &:hover {
+                    color: #444;
+                }
+            }
         }
     }
 }

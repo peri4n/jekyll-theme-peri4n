@@ -1,15 +1,27 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Raleway|Sacramento');
+$color1: #286DA8;
+$color2: #CD5360;
+$color3: #B37B4E;
+$color4: #438496;
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans');
 @import 'header';
 @import 'footer';
+
+a {
+    text-decoration: none;
+    &:visited {
+        color: #000;
+    }
+}
 
 body {
     width: 80%;
     margin: auto;
 
-    font-family: 'Raleway', serif;
+    font-family: 'OpenSans', sans-serif;
 
     > main {
         margin: 0 auto;
@@ -19,27 +31,19 @@ body {
             list-style: none;
             padding-bottom: 15px;
             line-height: 1.5em;
+            font-size: 14px;
 
-            hr {
-                border: 0;
-                height: 1px;
-                background: #333;
-                background-image:
-                linear-gradient(to right, #ccc, #333, #ccc);
-                margin-top: 25px;
-            }
             header {
-                text-align: center;
-                font-family: 'Sacramento', cursive;
+                font-family: 'Source Sans Pro', sans-serif;
                 font-size: 30px;
             }
             a {
                 color: #000;
                 text-decoration: none;
-            }
 
-            a:hover {
-                color: #00F;
+                &:hover {
+                    color: #444;
+                }
             }
         }
     }
