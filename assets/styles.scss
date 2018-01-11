@@ -6,6 +6,9 @@ $color2: #CD5360;
 $color3: #B37B4E;
 $color4: #438496;
 
+$fa-font-path: "fonts/font-awesome/";
+@import 'font-awesome';
+
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans');
 @import 'header';
 @import 'footer';

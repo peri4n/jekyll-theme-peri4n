@@ -13,6 +13,14 @@ collections:
 
 permalink: /:categories/:year/:month/:day/:title.html
 
+# show posts that are released in the future
 future: true
 
 owner: Fabian Bull
+
+gems:
+  - jekyll-font-awesome-sass
+
+# Make font-awesome fonts available
+font-awesome:
+  assets: true
