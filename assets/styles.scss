@@ -37,10 +37,10 @@ body {
         grid-area: main;
         margin: 0 auto;
 
-
         li {
+            display: flex;
+
             list-style: none;
-            padding-bottom: 15px;
             line-height: 1.5em;
             font-size: 14px;
 

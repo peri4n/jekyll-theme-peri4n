@@ -6,6 +6,12 @@ layout: default
     <ul>
         {% for post in site.posts %}
         <li>
+            <aside>
+                <ul>
+                    <li>Author: {% if post.author %} {{ post.author }} {% else %} Anonymous {% endif %}</li>
+                    <li>Date: {{ post.date }}</li>
+                </ul>
+            </aside>
             <article>
                 <header>
                     <h2>
