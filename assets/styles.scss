@@ -26,7 +26,7 @@ body {
     display: grid;
     grid-template-rows: 100px auto 100px;
     grid-template-columns: auto 200px;
-    grid-template-areas: 
+    grid-template-areas:
     "header header"
     "main sidebar"
     "footer footer";
@@ -39,6 +39,19 @@ body {
 
         li {
             display: flex;
+
+            aside {
+                &:hover {
+                    border-right: 2px solid lightgray;
+                }
+            }
+
+            article {
+                padding-left: 15px;
+                &:hover {
+                    border-left: 2px solid lightgray;
+                }
+            }
 
             list-style: none;
             line-height: 1.5em;
