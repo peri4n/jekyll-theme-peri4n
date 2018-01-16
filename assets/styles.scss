@@ -23,10 +23,18 @@ a {
 body {
     width: 80%;
     margin: auto;
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: auto 200px;
+    grid-template-areas: 
+    "header header"
+    "main sidebar"
+    "footer footer";
 
     font-family: 'OpenSans', sans-serif;
 
     > main {
+        grid-area: main;
         margin: 0 auto;
 
 
@@ -49,6 +57,10 @@ body {
                 }
             }
         }
+    }
+
+    > aside {
+        grid-area: sidebar;
     }
 }
 
