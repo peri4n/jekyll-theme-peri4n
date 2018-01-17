@@ -18,7 +18,7 @@ future: true
 
 owner: Fabian Bull
 
-gems:
+plugins:
   - jekyll-font-awesome-sass
 
 # Make font-awesome fonts available
