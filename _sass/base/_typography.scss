@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans');
+
+$fa-font-path: "fonts/font-awesome/";
+@import 'font-awesome';
+
+body {
+    font-family: 'OpenSans', sans-serif;
+
+    header {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+    }
+}

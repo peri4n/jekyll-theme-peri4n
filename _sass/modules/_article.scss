@@ -1,0 +1,19 @@
+
+body > main li {
+    aside {
+        &:hover {
+            border-right: 2px solid lightgray;
+        }
+    }
+
+    article {
+        padding-left: 15px;
+        &:hover {
+            padding-left: 13px;
+            border-left: 2px solid lightgray;
+        }
+    }
+
+}
+
+

@@ -1,0 +1,11 @@
+
+* {
+    color:black;
+}
+
+a {
+    text-decoration: none;
+    &:visited {
+        color: #000;
+    }
+}

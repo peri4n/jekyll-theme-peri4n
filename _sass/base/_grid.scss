@@ -1,0 +1,29 @@
+
+body {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: auto 200px;
+    grid-template-areas:
+    "header header"
+    "main sidebar"
+    "footer footer";
+
+    > main {
+        grid-area: main;
+        margin: 0 auto;
+    }
+
+    > aside {
+        grid-area: sidebar;
+    }
+
+    > footer {
+        grid-area: footer;
+    }
+
+    > header {
+        grid-area: header;
+}
+}
