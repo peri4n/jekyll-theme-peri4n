@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/peri4n/jekyll-theme-peri4n.svg?branch=master)](https://travis-ci.org/peri4n/jekyll-theme-peri4n)
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-peri4n.svg)](https://badge.fury.io/rb/jekyll-theme-peri4n)
 # jekyll-theme-peri4n
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
